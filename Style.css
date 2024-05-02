@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Quicksand:wght@300..700&family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Quicksand", sans-serif;
+    
+}
+.container{
+    background-color: gainsboro;
+    width: 500px;
+    height: 400px;
+    border-radius: 5mm;
+}
+h1{
+    font-size: 60px;
+    text-decoration: underline;
+}
+button{
+    background-color: rgb(221, 221, 221);
+    border-radius: 5mm;
+    box-shadow: black ;
+    text-shadow: black;
+    height: 60px;
+    width: 200px;
+}
+.cont{
+    background-color: gainsboro;
+    font-size: 20px;
+
+}
+input, label{
+    background-color: gainsboro;
+    color: black;
+    border-radius: 4mm;
+    width: 200px;
+    height: 30px;
+}
